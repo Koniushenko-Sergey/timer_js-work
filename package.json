@@ -1,0 +1,30 @@
+{
+  "name": "timer_js-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".posthtmlrc.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /timer_js-work/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koniushenko-Sergey/timer_js-work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koniushenko-Sergey/timer_js-work/issues"
+  },
+  "homepage": "https://github.com/Koniushenko-Sergey/timer_js-work#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.1"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.0.18"
+  }
+}
